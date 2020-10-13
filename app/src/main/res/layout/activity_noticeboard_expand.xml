@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NoticeboardExpandActivity">
+
+    <include
+        android:id="@+id/noticboardexpand_Toolbar"
+        layout="@layout/toolbar_all"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </include>
+    <Chronometer
+        android:id="@+id/noticeexpandchronometerExample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+
+
+    <RelativeLayout
+        android:layout_below="@+id/noticboardexpand_Toolbar"
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+
+        android:background="@drawable/noticboardbg"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="15dp">
+
+
+        <TextView
+            android:id="@+id/notice_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:hint="Title"
+            android:textColor="@color/colordarkblue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/notice_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/notice_title"
+            android:layout_margin="8dp"
+            android:padding="15dp"
+            android:text="Description"
+            android:textColor="@color/colordarkblue"
+            android:textSize="16sp"
+
+            />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/notic_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorgreen"
+        android:padding="20dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentBottom="true"
+
+        android:text=""
+        android:textAlignment="center"
+
+
+        />
+
+
+</RelativeLayout>

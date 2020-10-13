@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/taskdetail_toolbar"
+        layout="@layout/toolbar_all" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/taskdetail_toolbar"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="Add Before Pictures"
+                        android:textColor="@color/colorblue"
+                        android:textSize="18dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/taskdetail_addbefore_1"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/pic1" />
+
+                        <ImageView
+                            android:id="@+id/taskdetail_addbefore_2"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/pic2" />
+
+                        <ImageView
+                            android:id="@+id/taskdetail_addbefore_3"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/pic3" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/taskdetail_addbefore_4"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/group" />
+
+                        <ImageView
+                            android:id="@+id/taskdetail_addbefore_5"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/group" />
+
+                        <ImageView
+                            android:id="@+id/taskdetail_addbefore_6"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/group" />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/taskdetail_addbefore_7"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                           android:layout_margin="8dp"
+                            android:src="@drawable/group" />
+
+                        <ImageView
+                            android:id="@+id/taskdetail_addbefore_8"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/group" />
+
+                        <ImageView
+                            android:id="@+id/taskdetail_addbefore_9"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/group" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/taskdetail_addbefore_10"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/group" />
+
+                        <ImageView
+                            android:id="@+id/taskdetail_addbefore_11"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/group" />
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="8dp"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="Add AfterPictures"
+                        android:textColor="@color/colorblue"
+                        android:textSize="18dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/taskdetail_addafter_1"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/pic1" />
+
+                        <ImageView
+                            android:id="@+id/taskdetail_addafter_2"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/pic2" />
+
+                        <ImageView
+                            android:id="@+id/taskdetail_addafter_3"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/pic3" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/taskdetail_addafter_4"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/group" />
+
+                        <ImageView
+                            android:id="@+id/taskdetail_addafter_5"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/group" />
+
+                        <ImageView
+                            android:id="@+id/taskdetail_addafter_6"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/group" />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/taskdetail_addafter_7"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/group" />
+
+                        <ImageView
+                            android:id="@+id/taskdetail_addafter_8"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/group" />
+
+                        <ImageView
+                            android:id="@+id/taskdetail_addafter_9"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/group" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/taskdetail_addafter_10"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/group" />
+
+                        <ImageView
+                            android:id="@+id/taskdetail_addafter_11"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/group" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="Products Detail"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+
+                        />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/taskdetail_product_recycler"
+                        android:layout_marginTop="8dp"
+                        >
+
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="Clients Comments"
+                        android:textColor="@color/colorblue"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/taskdetail_client_comments"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_margin="30dp"
+                        android:background="@drawable/whiteshape"
+                        android:hint="Comments\n"
+                        android:textAlignment="center" />
+
+                    <RatingBar
+                        android:id="@+id/taskdetail_client_Rating"
+                        style="@style/Widget.AppCompat.RatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:numStars="5"
+                        android:progressBackgroundTint="@color/colorgry"
+                        android:progressTint="@color/colorgreen"
+                        android:rating="3.5" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="Competitor Data"
+                        android:textColor="@color/colorblue"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/taskdetail_comptitiors_data"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_margin="30dp"
+                        android:background="@drawable/whiteshape"
+                        android:hint="Comments"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:gravity="left"
+                        android:text="Add Images"
+                        android:textColor="@color/colorblue"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/taskdetail_comp_1"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/group" />
+
+                        <ImageView
+                            android:id="@+id/taskdetail_comp_2"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/group" />
+
+                        <ImageView
+                            android:id="@+id/taskdetail_comp_3"
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="8dp"
+                            android:src="@drawable/group" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+</RelativeLayout>

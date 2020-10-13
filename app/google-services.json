@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "692437968665",
+    "firebase_url": "https://baqala-notification-location.firebaseio.com",
+    "project_id": "baqala-notification-location",
+    "storage_bucket": "baqala-notification-location.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692437968665:android:7e828a4052c23554e50788",
+        "android_client_info": {
+          "package_name": "com.StackBuffers.baqala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692437968665-5a3lt8gdtoqoj1fggndf92hi3p54gp0f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.StackBuffers.baqala",
+            "certificate_hash": "c55286a528ff81a597df351a441590f39e0f7b77"
+          }
+        },
+        {
+          "client_id": "692437968665-gs41j5ai1o4onst6dpq6pftve0p5a04u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL0kp4KJ4x9rs7-i_yPGQmJdYpvPbFpjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692437968665-gs41j5ai1o4onst6dpq6pftve0p5a04u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

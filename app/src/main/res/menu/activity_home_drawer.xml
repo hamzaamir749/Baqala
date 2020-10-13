@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/iconhome"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/iconhistory"
+            android:title="History" />
+        <item
+            android:id="@+id/nav_completedvisit"
+            android:icon="@drawable/iconcompleted"
+            android:title="Completed Visits" />
+        <item
+            android:id="@+id/nav_pendingvisit"
+            android:icon="@drawable/iconpending"
+            android:title="Pending Visits" />
+
+        <item
+            android:id="@+id/nav_cancelvisit"
+            android:icon="@drawable/iconcancel"
+            android:title="Cancel Visits" />
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/iconreport"
+            android:title="Reports" />
+
+        <item
+            android:id="@+id/nav_noticeboard"
+            android:icon="@drawable/iconnoticeboard"
+            android:title="Notice Board" />
+
+        <item
+            android:id="@+id/nav_addnewstore"
+            android:icon="@drawable/iconaddnewstore"
+            android:title="Add New Store" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/iconlogout"
+            android:title="Log Out" />
+
+
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/ic_check_out_bell_24dp"></ImageView>
+
+        <TextView
+            android:id="@+id/cdl_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0:0:0"
+            android:textAlignment="center"
+            android:textColor="@color/colorblue"
+            android:textSize="50dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/checkout_DialougeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="Are you sure you want to checkout?"
+            android:textAlignment="center"
+            android:textColor="@color/colorblue"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/checkoutDialouge_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btn_dialouge_checkout"
+                android:text="YES"
+                android:textColor="@color/colorWhite"></Button>
+
+            <Button
+
+                android:id="@+id/checkoutDialouge_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/btn_dialouge_checkout"
+                android:text="No"
+                android:textColor="@color/colorWhite"></Button>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
